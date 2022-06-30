@@ -1,6 +1,6 @@
 [package]
 name = "prom-timer-macro"
-version = "0.1.0"
+version = "0.1.1"
 categories = ["development-tools::profiling"]
 authors = ["Neo Genie <neogenie.dev@gmail.com>"]
 description = "RAII Prometheus Timer for monitoring & tracing"
@@ -15,7 +15,7 @@ repository = "https://github.com/neogenie/prom-timer"
 prometheus = { version = ">= 0.4, <= 0.13", default-features = false}
 syn = {version="1.0.57",features=["full","fold"]}
 quote = "1.0.8"
-prom-timer = { path = "../prom-timer", version = "0.1.0" }
+prom-timer = { path = "../prom-timer", version = "0.1.1" }
 
 [dev-dependencies]
 lazy_static = "1.4.0"
