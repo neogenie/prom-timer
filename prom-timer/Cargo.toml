@@ -1,0 +1,16 @@
+[package]
+name = "prom-timer"
+version = "0.1.0"
+categories = ["monitoring", "tools"]
+authors = ["Neo Genie <neogenie.dev@gmail.com>"]
+description = "RAII Prometheus Timer for monitoring & tracing"
+edition = "2021"
+homepage = "https://github.com/neogenie/prom-timer"
+keywords = ["prometheus"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/neogenie/prom-timer"
+
+[dependencies]
+prometheus = { version = ">= 0.4, <= 0.13", default-features = false}
+

@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "prom-timer",
+    "prom-timer-macro"
+]
