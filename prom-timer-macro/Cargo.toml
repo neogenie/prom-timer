@@ -17,5 +17,8 @@ syn = {version="1.0.57",features=["full","fold"]}
 quote = "1.0.8"
 prom-timer = { path = "../prom-timer" }
 
+[dev-dependencies]
+lazy_static = "1.4.0"
+
 [lib]
 proc-macro = true

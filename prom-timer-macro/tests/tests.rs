@@ -1,8 +1,6 @@
-# prom-timer
-Rust RAII Prometheus timer
-
-```rust
-use std::collections::HashMap;
+#[cfg(test)]
+mod tests {
+    use std::collections::HashMap;
     use std::thread::sleep;
     use std::time::Duration;
     use prometheus::{self, HistogramVec, histogram_opts};
@@ -33,4 +31,4 @@ use std::collections::HashMap;
     fn test() {
         f();
     }
-```
+}
