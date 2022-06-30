@@ -1,6 +1,6 @@
 [package]
 name = "prom-timer"
-version = "0.1.0"
+version = "0.1.1"
 categories = ["development-tools::profiling"]
 authors = ["Neo Genie <neogenie.dev@gmail.com>"]
 description = "RAII Prometheus Timer for monitoring & tracing"
